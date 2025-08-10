@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosso 1 Ano ❤️</title>
+    <link rel="stylesheet" href="estilo/estilo.css" />
+  </head>
+  <body>
+    <!-- Tela inicial -->
+    <div id="welcome-screen">
+      <h1>Emilly ❤️ Maycon</h1>
+      <p>1 Ano de Amor • 08 de setembro</p>
+      <button id="enterBtn">Entrar</button>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div id="main-content" style="display: none">
+      <header>
+        <h1>1 ano muitas histórias❤️</h1>
+        <p>Nossos momentos</p>
+        <button id="playMusic">🎵 Play</button>
+      </header>
+
+      <main class="timeline">
+        <div class="timeline-item left">
+          <div class="content">
+            <h2>Dia em que nos conhecemos</h2>
+            <p>Foi aqui que tudo começou...</p>
+            <img src="fotos/foto1.jpg" alt="Nós dois" />
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="content">
+            <h2>Primeiro Encontro</h2>
+            <p>Uma noite inesquecível ❤️</p>
+            <video controls>
+              <source src="videos/video1.mp4" type="video/mp4" />
+              Seu navegador não suporta vídeos.
+            </video>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="content">
+            <h2>Viagem Juntos</h2>
+            <p>Momentos especiais que guardamos no coração</p>
+            <img src="fotos/foto2.jpg" alt="Viagem" />
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <p>Com amor, Maycon ❤️</p>
+      </footer>
+    </div>
+
+    <!-- Música -->
+    <audio id="bgMusic" loop>
+      <source src="musica.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
